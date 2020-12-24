@@ -1,0 +1,25 @@
+.head_img{
+    width: 40px;
+    height: 40px;
+}
+
+.info_block{
+    height: 48px;
+}
+
+.active {
+    position: relative;
+    a {
+      color: $primary;
+    }
+    &:before {
+      content: '';
+      position: absolute;
+      width: 4px;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      top: 0;
+      background-color: $primary;
+    }
+  }

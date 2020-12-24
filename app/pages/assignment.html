@@ -1,0 +1,163 @@
+---
+title: Week5 - Assignment
+layout: ./app/layout.ejs
+engine: ejs
+current: assignment
+---
+
+<header class="header_block d-flex justify-content-between pt-3">
+    <div class="w-75 d-flex flex-nowrap align-items-center">
+        <h2 class="mr-3">Assignment</h2>
+        <div class="dropdown">
+            <button class="btn" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                All Courses
+                <span class="material-icons text-primary align-middle">expand_more</span>
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="#">HTML</a>
+                <a class="dropdown-item" href="#">CSS</a>
+                <a class="dropdown-item" href="#">JavaScript</a>                
+            </div>
+        </div>
+    </div>
+
+    <div class="list-unstyled d-flex justify-content-end align-items-center w-25">
+        <a href="#" class="material-icons mr-3">search</a>
+        <a href="#" class="material-icons">notifications_active</a>
+    </div>
+</header>
+
+<main class="mt-5">
+    <div class="d-flex justify-content-between align-items-center pl-0">
+        <div class="dropdown">
+            <button class="btn pl-0" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                All(4)
+                <span class="material-icons text-primary align-middle">expand_more</span>
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="#">All</a>
+                <a class="dropdown-item" href="#">Chapter Assignment 1</a>
+                <a class="dropdown-item" href="#">Chapter Assignment 2</a>
+                <a class="dropdown-item" href="#">Final Assignment</a>
+            </div>
+        </div>
+        <p class="text-light">2 comments</p>
+    </div>
+
+    <div class="row">
+        <div class="col-5">
+            <ul class="list-group">
+                <li class="list-group-item bg-secondary d-flex justify-content-between align-items-center">
+                    <div class="mb-1">
+                        <small>Chapter Assignment 2</small>
+                        <p class="font-weight-bold mb-0">Please check this file…</p>
+                    </div>
+                    <div class="mb-1 text-right">
+                        <small class="d-block">4 hrs ago</small>
+                        <small class="text-muted">Emily Wang</small>
+                    </div>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    <div class="mb-1">
+                        <small>Chapter Assignment 1</small>
+                        <p class="font-weight-bold mb-0">My Homework</p>
+                    </div>
+                    <div class="mb-1 text-right">
+                        <small class="d-block">12 hrs ago</small>
+                        <small class="text-muted">David Xu</small>
+                    </div>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    <div class="mb-1">
+                        <small>Final Assignment</small>
+                        <p class="font-weight-bold mb-0">Have a problem with this…</p>
+                    </div>
+                    <div class="mb-1 text-right">
+                        <small class="d-block">18 hrs ago</small>
+                        <small class="text-muted">Tony Wei</small>
+                    </div>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    <div class="mb-1">
+                        <small>Final Assignment</small>
+                        <p class="font-weight-bold mb-0">Did I do it right?</p>
+                    </div>
+                    <div class="mb-1 text-right">
+                        <small class="d-block">19 hrs ago</small>
+                        <small class="text-muted">Christina Lin</small>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <div class="col-7">
+            <div class="card mb-3">
+                <div class="card-header bg-secondary d-flex justify-content-between">
+                    <div>
+                        <small>Chapter Assignment 2 / HTML&CSS</small>
+                        <p class="font-weight-bold m-0">Please check this file for me, thanks!</p>
+                    </div>
+                    <div class="dropdown d-flex align-items-center">
+                        <button class="btn " type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <span class="material-icons">more_vert</span>
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#">Edit</a>
+                            <a class="dropdown-item" href="#">Delete</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <ul class="list-unstyled">
+                        <li class="media mb-3">
+                            <img class="head_img mr-2 rounded-circle" src="https://hexschool.github.io/webLayoutTraining1st/week5/emilywang.jpeg" alt="head">
+                            <div class="media-body border-bottom pb-3">
+                                <div class="mb-3">
+                                    <p class="font-weight-bold m-0">Emily Wang</p>
+                                    <small class="text-muted">10:38 AM (4 hours ago)</small>
+                                </div>
+                                <div class="info">
+                                    <p>Hi Teacher, the attached file is my homework of chapter 2. And here comes a question: Why in the following code the height of the <code>div</code> is bigger than the height of the <code>img</code> ? There is a gap below the image, but it doesn’t seems to be a padding/margin. What is the gap or extra space below image?</p>
+                                    
+                                    <a class="btn btn-secondary d-inline-flex justify-content-between align-items-center border" href="">
+                                        <span class="material-icons mr-2">attach_file</span>
+                                        <span>HW-2-David.zip</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="media">
+                            <img class="head_img mr-2 rounded-circle" src="https://hexschool.github.io/webLayoutTraining1st/week5/andychen.jpeg" alt="head">
+                            <div class="media-body">
+                                <div class="mb-3">
+                                    <p class="font-weight-bold m-0">Andy Chen (You)</p>
+                                    <small class="text-muted">13:24 AM (1 hours ago)</small>
+                                </div>
+                                <div class="info">
+                                    <p>Hi David, by default, an image is rendered inline, like a letter so it sits on the same line that a, b, c and d sit on. There is space below that line for the descenders you find on letters like g, j, p and q.</p>
+                                    <p>You can:</p>
+                                    <ul>
+                                        <li>adjust the <code>vertical-align</code> of the image to position it elsewhere (e.g. the <code>middle</code> ) or</li>
+                                        <li>change the <code>display</code> so it isn’t inline.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="d-flex align-items-center justify-content-between">
+                <div>
+                    <a href="#"><span class="material-icons">navigate_before</span></a>
+                    <a href="#"><span class="material-icons">navigate_next</span></a>
+                </div>
+                <div>
+                    <a href="#" class="btn btn-outline-primary px-5 py-2 font-weight-bold mr-3">Mark as read</a>
+                    <a href="#" class="btn btn-primary px-5 py-2 font-weight-bold">Reply</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
